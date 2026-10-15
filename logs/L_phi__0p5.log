@@ -1,0 +1,47 @@
+================================================================================
+SIMULATION RUN EXECUTION LOG: L_phi__0p5
+Timestamp: 2026-10-15 15:19:13
+================================================================================
+
+1. GOVERNING MODEL & INTEGRATOR:
+   • Model Type              : Allen-Cahn (Non-Conserved Order Parameter)
+   • Spatial Discretization  : Semi-Implicit Fourier Spectral Collocation (Jax JIT)
+   • Floating Point Precision: IEEE 754 float64 (Double Precision)
+   • Domain Resolution (N x N): 64 x 64 (dx = 1.00)
+   • Time Increment (dt)     : 0.025
+   • Total Simulation Steps  : 15000
+   • Total Physical Time     : 375.0000
+   • Initial Random Seed     : 42
+   • Noise Amplitude (A0)    : 0.20
+
+2. PHYSICAL PARAMETERS:
+   • Parameter Evaluated     : Allen-Cahn Mobility ($L_\phi$)
+   • Configured Value        : 0.5
+   • Mobility M (kinetic)    : 1.0
+   • Mobility L_phi (relax)  : 0.5
+   • Interfacial Penalty k   : 1.0
+   • Double-Well Depth eps   : 0.9
+
+3. TRAJECTORY & CHECKPOINT PROGRESS:
+   • Checkpoint reached at step   1500 / 15000 ( 10.0%)
+   • Checkpoint reached at step   4500 / 15000 ( 30.0%)
+   • Checkpoint reached at step  15000 / 15000 (100.0%)
+
+4. THERMODYNAMIC & STRUCTURAL DIAGNOSTICS:
+   • Initial Free Energy (F_0):     6.67610603e-04
+   • Final Free Energy (F_end):    -1.78451949e-01
+   • Energy Reduction (Delta F):     1.79119559e-01
+   • Mean Dissipation Rate   :     1.19413040e-05 / step
+   • Phase Segregation Index :         0.90029695
+   • Interfacial Sharpness   :     2.27766163e-02
+   • Dominant Length Scale L*:            42.6184 nm
+   • Structure Factor Peak   :     3.61753048e+02
+   • Final Mean Density      :     7.11909630e-02
+   • Net Mass Drift |Delta M|:     7.11909630e-02
+   • Mass Conservation Check : N/A (Allen-Cahn non-conserved)
+
+5. COMPUTATIONAL BENCHMARK:
+   • Wall Clock Time         : 1.6299 seconds
+   • Micro-Step Latency      : 0.1087 ms/step
+   • Status                  : SUCCESS
+================================================================================

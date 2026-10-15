@@ -1,0 +1,5 @@
+System,Temperature (K),Salt [M],delta_G (kcal/mol),Bonding Volume delta (nm^3)
+"DNA-Star (T=295K, 1M Na+)",295.0,1.0,-9.6,21490942.189325426
+"DNA-Star (T=305K, 1M Na+)",305.0,1.0,-8.4,1734699.0514315858
+"DNA-Star (T=315K, 1M Na+)",315.0,1.0,-7.2,164282.62730990036
+"DNA-Star (T=325K, 1M Na+)",325.0,1.0,-6.0,17986.717256628755

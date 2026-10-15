@@ -1,0 +1,46 @@
+SIMULATION RUN EXECUTION LOG: M__2p0
+Timestamp: 2026-10-15 12:29:05
+================================================================================
+
+1. GOVERNING MODEL & INTEGRATOR:
+   • Model Type              : Cahn-Hilliard (Conserved Order Parameter)
+   • Spatial Discretization  : Semi-Implicit Fourier Spectral Collocation (Jax JIT)
+   • Floating Point Precision: IEEE 754 float64 (Double Precision)
+   • Domain Resolution (N x N): 64 x 64 (dx = 1.00)
+   • Time Increment (dt)     : 0.025
+   • Total Simulation Steps  : 15000
+   • Total Physical Time     : 375.0000
+   • Initial Random Seed     : 42
+   • Noise Amplitude (A0)    : 0.2
+
+2. PHYSICAL PARAMETERS:
+   • Parameter Evaluated     : Transport Mobility (M)
+   • Configured Value        : 2.0
+   • Mobility M (kinetic)    : 2.0
+   • Mobility L_phi (relax)  : 1.0
+   • Interfacial Penalty k   : 1.0
+   • Double-Well Depth eps   : 0.9
+
+3. TRAJECTORY & CHECKPOINT PROGRESS:
+   • Checkpoint reached at step   1500 / 15000 ( 10.0%)
+   • Checkpoint reached at step   4500 / 15000 ( 30.0%)
+   • Checkpoint reached at step  15000 / 15000 (100.0%)
+
+4. THERMODYNAMIC & STRUCTURAL DIAGNOSTICS:
+   • Initial Free Energy (F_0):     6.67610603e-04
+   • Final Free Energy (F_end):    -1.38782955e-01
+   • Energy Reduction (Delta F):     1.39450566e-01
+   • Mean Dissipation Rate   :     9.29670439e-06 / step
+   • Phase Segregation Index :         0.81904092
+   • Interfacial Sharpness   :     6.02266541e-02
+   • Dominant Length Scale L*:            26.1129 nm
+   • Structure Factor Peak   :     1.09107296e+02
+   • Initial Mean Density    :     1.30104261e-18
+   • Final Mean Density      :    -9.02056208e-17
+   • Net Mass Drift |Delta M|:     9.15066634e-17
+   • Mass Conservation Check : PASSED (< 1e-8 machine zero)
+
+5. COMPUTATIONAL BENCHMARK:
+   • Wall Clock Time         : 1.6617 seconds
+   • Micro-Step Latency      : 0.1108 ms/step
+   • Status                  : SUCCESS

@@ -1,0 +1,23 @@
+{
+  "run_id": "k__0p5",
+  "param_key": "k",
+  "param_display_name": "Gradient Penalty",
+  "param_symbol": "$\\kappa$",
+  "param_value": 0.5,
+  "model": "ch",
+  "integrator": "spectral",
+  "final_free_energy": -0.14175398621391644,
+  "init_free_energy": -0.0026159306957891297,
+  "energy_drop": 0.1391380555181273,
+  "energy_drop_rate": 9.275870367875154e-06,
+  "phase_separation_index": 0.8208711688971412,
+  "interface_sharpness": 0.11062997204523936,
+  "dominant_length_scale": 22.366237006688195,
+  "structure_factor_peak": 49.33640521772925,
+  "final_mass_density": -2.723515857283587e-16,
+  "mass_drift": 2.736526283353413e-16,
+  "mass_conserved": true,
+  "wall_time_seconds": 1.6645727157592773,
+  "steps": 15000,
+  "status": "SUCCESS"
+}

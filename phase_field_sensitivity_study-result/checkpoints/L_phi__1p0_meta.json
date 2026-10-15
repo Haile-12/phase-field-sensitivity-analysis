@@ -1,0 +1,23 @@
+{
+  "run_id": "L_phi__1p0",
+  "param_key": "L_phi",
+  "param_display_name": "Allen-Cahn Mobility",
+  "param_symbol": "$L_\\phi$",
+  "param_value": 1.0,
+  "model": "ac",
+  "integrator": "spectral",
+  "final_free_energy": -0.178631864591175,
+  "init_free_energy": 0.0006676106030174657,
+  "energy_drop": 0.17929947519419245,
+  "energy_drop_rate": 1.1953298346279497e-05,
+  "phase_separation_index": 0.9005827734886769,
+  "interface_sharpness": 0.022584909524306997,
+  "dominant_length_scale": 42.61961712948612,
+  "structure_factor_peak": 361.89489789442126,
+  "final_mass_density": 0.0713742645114025,
+  "mass_drift": 0.0713742645114025,
+  "mass_conserved": false,
+  "wall_time_seconds": 1.698312520980835,
+  "steps": 15000,
+  "status": "SUCCESS"
+}

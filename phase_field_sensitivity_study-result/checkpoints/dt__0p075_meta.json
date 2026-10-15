@@ -1,0 +1,23 @@
+{
+  "run_id": "dt__0p075",
+  "param_key": "dt",
+  "param_display_name": "Time Step",
+  "param_symbol": "$\\Delta t$",
+  "param_value": 0.075,
+  "model": "ch",
+  "integrator": "spectral",
+  "final_free_energy": -0.1457069020527342,
+  "init_free_energy": 0.0006676106030174657,
+  "energy_drop": 0.14637451265575166,
+  "energy_drop_rate": 9.758300843716777e-06,
+  "phase_separation_index": 0.8324123152479348,
+  "interface_sharpness": 0.05367839708891203,
+  "dominant_length_scale": 29.215274753722905,
+  "structure_factor_peak": 104.23391775430288,
+  "final_mass_density": -4.718447854656915e-16,
+  "mass_drift": 4.731458280726741e-16,
+  "mass_conserved": true,
+  "wall_time_seconds": 1.6459968090057373,
+  "steps": 15000,
+  "status": "SUCCESS"
+}

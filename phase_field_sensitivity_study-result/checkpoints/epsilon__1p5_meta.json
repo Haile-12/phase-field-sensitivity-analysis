@@ -1,0 +1,23 @@
+{
+  "run_id": "epsilon__1p5",
+  "param_key": "epsilon",
+  "param_display_name": "Bulk Driving Force",
+  "param_symbol": "$\\varepsilon$",
+  "param_value": 1.5,
+  "model": "ch",
+  "integrator": "spectral",
+  "final_free_energy": -0.4022759364109605,
+  "init_free_energy": -0.003317867884162885,
+  "energy_drop": 0.3989580685267976,
+  "energy_drop_rate": 2.6597204568453173e-05,
+  "phase_separation_index": 1.070291783852661,
+  "interface_sharpness": 0.14754667568158392,
+  "dominant_length_scale": 24.63775681437045,
+  "structure_factor_peak": 142.04403759092543,
+  "final_mass_density": 1.457167719820518e-16,
+  "mass_drift": 1.444157293750692e-16,
+  "mass_conserved": true,
+  "wall_time_seconds": 1.6519434452056885,
+  "steps": 15000,
+  "status": "SUCCESS"
+}

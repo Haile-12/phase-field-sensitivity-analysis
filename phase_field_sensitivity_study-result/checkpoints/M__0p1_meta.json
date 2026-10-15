@@ -1,0 +1,23 @@
+{
+  "run_id": "M__0p1",
+  "param_key": "M",
+  "param_display_name": "Transport Mobility",
+  "param_symbol": "M",
+  "param_value": 0.1,
+  "model": "ch",
+  "integrator": "spectral",
+  "final_free_energy": -0.0564307757927081,
+  "init_free_energy": 0.0006676106030174657,
+  "energy_drop": 0.05709838639572557,
+  "energy_drop_rate": 3.8065590930483714e-06,
+  "phase_separation_index": 0.5830796345002601,
+  "interface_sharpness": 0.1058687420771744,
+  "dominant_length_scale": 10.739985161537,
+  "structure_factor_peak": 15.481117025346526,
+  "final_mass_density": -4.9439619065339e-17,
+  "mass_drift": 5.074066167232161e-17,
+  "mass_conserved": true,
+  "wall_time_seconds": 1.9833199977874756,
+  "steps": 15000,
+  "status": "SUCCESS"
+}
